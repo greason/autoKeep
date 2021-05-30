@@ -1,0 +1,1 @@
+adb shell am instrument -w -r   -e debug false -e class com.greason.autotest.DemoTest#testKeep com.greason.autotest.test/android.support.test.runner.AndroidJUnitRunner
